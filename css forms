@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+ input {
+    border: none;              
+    border-bottom: 2px solid #333; 
+    outline: none;                       
+    width: 70%;                 
+    font-size: 16px;
+    transition: border-color 0.3s; 
+    margin-bottom: 25px;
+}
+
+
+input:focus {
+    border-bottom: 2px solid #007bff; 
+}
+
+
+.formulario {
+    display: flex;         
+    flex-wrap: wrap;       
+    justify-content: center;
+    gap: 40px;              
+    padding: 20px;
+}
+
+button {
+    border-radius: 30px;
+    width: 200px;
+    height: 40px;
+    background-color: black;
+    flex-direction: column;
+}
+
+.botao{
+    color: white;
+    font-weight: bold;
+    font-size: 16px ;
+    display: block;
+}
+
+img {
+    width: 50px;
+}
+
