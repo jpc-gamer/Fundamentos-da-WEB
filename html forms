@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <body>
+        <div class="formulario"> <div class="texto_formulario">
+                <p> Contact Us </p>
+                <form action="forms_page" method="post">
+                    <input type="text" id="nome" name="nome" required placeholder="Nome">
+                    <input type="email" id="email" name="email" required placeholder="Email"> 
+                    <input type="text" id="mensagem" name="mensagem" placeholder="Mensagem">
+                    <button type="submit" class="botao">Contact Us</button>
+                </form>
+            </div>
+    
+            <div class="Contato_img">
+                <div class="contato">
+                    <h2> Contact </h2>
+                    <p> aula_formulario@gmail.com </p>
+                </div>
+    
+                <div class="Based">
+                    <h2> Based in </h2>
+                    <p> Aula de formulário, São Paulo</p>
+                </div>
+    
+                <div class="imagens_logo">
+                    <img src="img/Icon-Facebook-In-circle-PNG-removebg-preview.png" alt="Facebook" class="facebook">
+                    <img src="img/790f8d7b071f5c5663331e53b0fe83c4-removebg-preview.png" alt="Instagram" class="instagram">
+                    <img src="img/images-removebg-preview.png" alt="Twitter" class="twitter">
+                </div>
+            </div>
+    
+        </div>
+    </body>
+</body>
+</html>
+ 
