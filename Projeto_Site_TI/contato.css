@@ -1,0 +1,164 @@
+/* Cabeçalho */
+
+ * {margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;}
+
+.navbar {display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 80px;
+    background-color: #ffffff;
+    border-bottom: 1px solid #e5e7eb;}
+
+.logo {display: flex;
+    align-items: baseline; 
+    gap: 4px;
+    color: #000;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;}
+
+.quadrado {width: 6px;
+    height: 6px;
+    background-color: #4b5563;
+    display: inline-block;}
+
+.menu {display: flex;
+    align-items: center;
+    gap: 30px;}
+
+.menu a {text-decoration: none;
+    color: #333333;
+    font-size: 16px;}
+
+.saibamais {background-color: #0f172a;
+    color: #ffffff !important;
+    padding: 10px 24px;
+    border-radius: 20px;
+    font-weight: 600;
+    transition: background-color 0.3s ease;}
+
+.saibamais:hover {background-color: #1e293b;}
+
+/* Meio */
+
+.contato {background-color: #f9fafb;
+    padding: 80px 10%;}
+
+.contatocabecalho {text-align: center;
+    margin-bottom: 50px;}
+
+.contatocabecalho h1 {text-align: center;
+    color: #0f172a;
+    font-size: 48px;
+    font-weight: 740;
+    margin-bottom: 10px;}
+
+.contatocabecalho p {text-align: center;
+    color: #545454;
+    font-size: 20px;
+    font-weight: 408;}
+
+.contatoconteudo {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    max-width: 1100px;
+    margin: 0 auto;}
+
+.info {flex: 1.2;
+    max-width: 500px;}
+
+.info h3 {font-size: 28px;
+    color: #0f172a;
+    margin-bottom: 8px;}
+
+.duvidas {color: #737373;
+    font-size: 16px;
+    line-height: 1.2;}
+
+.iconetelefone {width: 15%;
+    object-fit: contain;}
+
+.iconeemail {width: 15%;
+    object-fit: contain;}
+
+.iconeinstagram {width: 16%;
+    object-fit: contain;}
+
+.formulario {flex: 1.8;
+    max-width: 650px;
+    background: #ffffff;
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 10px 25px #0000000d;}
+
+.linhadupla {display: flex;
+    gap: 20px;}
+
+.campo {display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    width: 100%;}
+
+label {font-size: 14px;
+    color: #4b5563;
+    margin-bottom: 8px;}
+
+input, textarea {padding: 12px;
+    border: 1px solid #e5e7eb;
+    border-radius: 8px;
+    outline: none;}
+
+.enviar {width: 50%;
+    display: block;
+    margin: 20px auto;
+    padding: 14px;
+    background-color: #0f172a;
+    color: white;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;}
+
+/* Rodapé */
+
+.rodape {background-color: #1f2736;
+    padding: 40px 0 20px 0;
+    text-align: center;
+    font-family: sans-serif;}
+
+.rodapeconteudo {max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;}
+
+.rodapeicones {text-align: center;
+    margin-bottom: 30px;}
+
+.linkicones {display: inline-block;}
+
+.imagemicones {width: 250px;
+    height: auto;
+    display: block;
+    transition: transform 0.3s;}
+
+.linkicones:hover .imagemicones {transform: scale(1.05);}
+
+.rodapenav {display: flex;
+    justify-content: center;
+    gap: 60px;
+    margin-bottom: 30px;}
+
+.rodapenav a {color: white;
+    text-decoration: none;
+    font-size: 18px;}
+
+.rodapenav a:hover {text-decoration: underline;}
+
+.rodapelinha {border: 0;
+    border-top: 1px solid #FFFFFF;
+    margin-bottom: 20px;}
+
+.rodapecopyright {font-size: 14px;
+    color: #FFFFFF;}
